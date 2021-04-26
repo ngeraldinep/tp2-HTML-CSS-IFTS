@@ -1,0 +1,148 @@
+.noticia {
+    text-align: center;
+    font-family: "Segoe IU", sans-serif;
+    font-size:x-large;
+
+}
+
+.side {
+    background-color: salmon;
+    float: left;
+    -ms-flex: 1%;
+    flex: 1%;
+}
+
+.main {
+    background-color: sandybrown;
+    float:right;
+    -ms-flex: 1%;
+    flex: 1%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.header{
+    font-family:'Trebuchet MS';
+    font-size: 150% ;
+    background-color:salmon;
+    border:rgb(224, 79, 91) outset;
+    padding: auto;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.footer {
+    font-size: 125%;
+    font-family: "Trebuchet MS";
+    padding: 15px;
+    text-align: center;
+    background-color: salmon;
+    border:rgb(224, 79, 91) outset;
+    height: auto;
+    width: 100%;
+  }
+
+.card {
+    font-family:"Trebuchet MS";
+    font-style: rgb(219, 27, 101);
+    text-align: center;
+    border:deeppink outset;
+}
+
+.body {
+    background-color:rgb(231, 220, 211);
+    text-align: center;
+    align-items: center;
+    display:inline-block;
+    height: auto;
+    width: 100%;
+}
+
+.centrar-lista {
+    text-align: center;
+    display:inline-block;
+    font-size:x-large;
+}
+
+.container-sm {
+    text-align: center;
+    display:inline-block;
+    font-family: 'Trebuchet MS';
+    font-size:larger;
+    font-weight: bold;
+
+
+}
+
+.parrafos {
+    text-align: center;
+    font-size: larger ;
+    font-family: 'Segoe UI';
+    color: green;
+}
+
+.titulo6 {
+    text-align: center;
+    font-size: larger ;
+    font-family: 'Segoe UI';
+    color: green;
+}
+
+
+
+
+.span-grande {
+    letter-spacing:8px;
+    word-spacing:12px;
+}
+.span-mediano {
+    letter-spacing:4px;
+    word-spacing:8px;
+}
+.span-chico {
+    letter-spacing:2px;
+    word-spacing:4px;
+}
+.upper {
+    text-transform:uppercase;
+}
+
+
+
+
+.subrayado {
+    color:#00aa00;
+    text-decoration:underline;
+}
+.tachado {
+    color:#00aa00;
+    text-decoration:line-through;
+}
+
+
+.pregunta {
+    font-family:verdana;
+    font-size:14px;
+    font-style:italic;
+    color:#0000aa;
+}
+
+.respuesta {
+    font-family:verdana;
+    font-size:12px;
+    font-style:normal;
+    text-align:justify;
+    color:#555555;
+}
